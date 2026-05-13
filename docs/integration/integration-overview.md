@@ -6,6 +6,8 @@ Cloud Connect is designed with extensibility in mind. The app provides an interf
 
 Developers can implement custom providers to support other cloud storage solutions, such as OneDrive. The interface ensures that new providers can be added without changing the core app functionality.
 
+For a full step-by-step guide, see [Implementing a Custom Cloud Provider](custom-provider.md).
+
 ## API and Events
 
 Cloud Connect exposes AL events and integration points for advanced scenarios, such as custom workflows or automated document processing.
