@@ -26,7 +26,6 @@ The **file inaccessible** status means that Cloud Connect has a metadata record 
 3. **Check the file in Azure** — Log into the Azure Portal and navigate to the configured container. Search for the file using the path shown in the attachment's **Location** field (visible in the attachment details panel).
 4. **Quick availability check** — Click the *file inaccessible* text in the Document Type column of the attachment list. Cloud Connect will silently test whether the file is reachable. If it succeeds, the status is cleared automatically.
 5. **Restore from Azure** — If you can locate the file in Azure but the check still fails, verify the SAS token permissions include **Read** and **List**.
-6. **Accept the loss** — If the file has been permanently deleted and cannot be recovered, the metadata record can be left as-is or cleaned up. The attachment placeholder in Business Central can be deleted manually if it is no longer needed.
 
 ---
 
